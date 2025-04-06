@@ -8,7 +8,6 @@
 - Exception
 - constants
 - entity
-- config
 - components
 - pipeline
 - main

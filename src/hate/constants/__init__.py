@@ -1,12 +1,12 @@
 import os
-
+from pathlib import Path
 from datetime import datetime
 
 #common constants
 
 TIMESTAMP:str=datetime.now().strftime("%m_%d_%Y_%H_%M_%S")
-ARTIFACT_DIR=os.path.join("artifacts",TIMESTAMP)
-ZIP_FILE_NAME='archive.zip'
+ARTIFACTS_DIR=os.path.join("artifacts",TIMESTAMP)
+ZIP_FILE_NAME='E:/Hate_Speech_Classification/archive.zip'
 LABEL='label'
 TWEET='tweet'
 MODEL_NAME='model.h5'
